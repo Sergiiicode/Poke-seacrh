@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(./wallpaper2you_127747.png);
+  background-position: left;
+  height: 50vh;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin: 35px;
+}
+
+.container {
+  text-align: center;
+}
+
+.container input {
+  padding: 10px 25px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  color: #777777;
+}
+
+.pokecard {
+  background: white;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  box-shadow: 8px 8px 60px rgba(17, 17, 17, 0.205),
+    -10px -10px 60px rgba(17, 17, 17, 0.205);
+  border-radius: 3px;
+  position: relative;
+  color: #272727;
+}
+
+.pokecard .header__card {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pokecard .header__card .types {
+  /* color: #fff;
+  background: rgb(12, 214, 12); */
+  padding: 8px 5px;
+  border-radius: 3px;
+}
+
+.pokecard .header__card .hp {
+  color: #fff;
+  background: rgb(12, 214, 12);
+  padding: 8px 5px;
+  border-radius: 3px;
+  margin-left: 50px;
+}
+
+.pokecard .hp span {
+  margin: 0px 5px;
+}
+
+.pokecard img {
+  width: 150px;
+}
+
+.pokecard .id {
+  margin-top: 15px;
+}
+
+.pokecard h2 {
+  margin-top: 20px;
+}
+
+.pokecard .stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.pokecard .stats h3 {
+  padding: 10px;
+}
+
+.pokecard .pokeball {
+  width: 200px;
+  padding: 70px 0px;
+  background: white;
+}
+
+.error {
+  margin: 40px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.error__img {
+  width: 180px;
+}
